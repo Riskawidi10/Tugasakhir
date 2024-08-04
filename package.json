@@ -1,0 +1,26 @@
+{
+  "name": "tugasakhir",
+  "version": "1.0.0",
+  "description": "with webdriover.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run .wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riskawidi10/Tugasakhir.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riskawidi10/Tugasakhir/issues"
+  },
+  "homepage": "https://github.com/Riskawidi10/Tugasakhir#readme",
+  "devDependencies": {
+    "@wdio/cli": "^8.39.1",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0"
+  }
+}
